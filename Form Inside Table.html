@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>job application</title>
+        <style>
+
+#formContainer{
+    background-color: #FF6B6B;
+    width: 694px;
+    display: block;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #FDD2BF;
+    }
+
+#submit{
+
+    padding-right: 12px;
+    margin-left: 160px;
+    margin-bottom: 12px;
+    background-color: #1d6eb4;
+}
+.left{
+    float: left;
+    width: 150px;
+    text-align: right;
+    padding-right: 12px;
+    margin-top: 12px;
+    clear: left;
+}
+ </style>
+    </head>
+    <body>
+        <div class="container">
+           
+            <h1 style="text-align: center;">Job Application</h1>
+            <form id="formContainer" method="post">
+                <table>
+                    <tr>
+                        <td class="left"><label for="name">Name:</label></td>
+                        <td class="right"><input type="text" name="name" id="name"/></td>
+                    </tr>
+                    <tr>
+                        <td class="left"><label for="date"> Date of Birth:</label></td>
+                        <td class="right"><input type="date" name="date" id="date"/></td>
+                    </tr>
+                    <tr>
+                        <td class="left"><label for="job type"></label></td>
+                        <td class="right">
+                            <input type="radio" name="bean" id="Female"/> Female<br>
+                            <input type="radio" name="bean" id="male"/>Male
+                        </td>
+                    </tr>
+                   
+                    <tr>
+                        <td class="left"><label for="phone">Phone No:</label></td>
+                        <td class="right"><input type="tel" name="phone" id="phone"/></td>
+                    </tr>                   
+                    <tr>
+                        <td class="left"><label for="address">Address:</label></td>
+                        <td class="right"><input type="text" name="address" id="address"/></td>
+                    </tr>
+                    <tr>
+                        <td class="left"><label for="city">City:</label></td>
+                        <td class="right"><input type="text" name="city" id="city"/></td>
+                    </tr>
+                    <tr>
+                        <td class="left"><label for="state">State:</label></td>
+                        <td class="right"><input type="text" name="state" id="state"/></td>
+                    </tr>
+                    <tr>
+                        <td class="left"><label for="pin code">Pin Code:</label></td>
+                        <td class="right"><input type="text" name="pin code" id="pin code"/></td>
+                    </tr>
+                   
+
+                    <tr>
+                        <td class="left"><label for="Degree">Choose your Degree:</label></td>
+                        <td>
+                            <select name="Degree" id="Degree" class="right">
+                                <option value="Choose your Degree">Choose your Degree</option>
+                                <option value="b.tech">B.Tech</option>
+                                <option value="B.Sc">B.Sc</option>
+                                <option value="BBA">BBA</option>
+                                <option value="Bms">BMS</option>
+                                <option value="BCA">BCA</option>
+                                <option value="b.com">B.Com</option>
+                                <option value="M.Tech">M.Tech</option>
+                                <option value="MBA">MBA</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left"><label for="Company name">Company Name:</label></td>
+                        <td class="right"><input type="text" name="Company name" id="Company name"/></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="left"><label for="experience">Experience Years</label></td>
+                        <td><input type="number" name="experience" id="experience"/></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="left"><label for="Job Type">Job Type:</label></td>
+                        <td class="right">
+                            <input type="checkbox" name="Job Type" id="Full Time"/> Full Time<br>
+                            <input type="checkbox" name="Job Type" id="Part Time"/> Part Time
+                        </td>
+                    </tr>
+                  
+                    <tr>
+                        <td class="left"><label for="Description">Description</label></td>
+                        <td class="right"><textarea name="Description" rows="5" cols="50" id="Description"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="submit"><input type="submit" id="submit" value="Apply"></td>
+                    </tr>
+                </table>
+            </form>
+           
+        </div>
+       
+    </body>
+</html>
